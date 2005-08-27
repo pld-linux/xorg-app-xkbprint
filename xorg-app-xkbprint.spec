@@ -10,9 +10,9 @@ Source0:	http://xorg.freedesktop.org/X11R7.0-RC0/app/xkbprint-%{version}.tar.bz2
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	pkgconfig >= 0.19
 BuildRequires:	xorg-lib-libxkbfile-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkgconfig >= 0.19
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
