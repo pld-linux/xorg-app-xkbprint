@@ -1,5 +1,5 @@
 Summary:	xkbprint application
-Summary(pl):	Aplikacja xkbprint
+Summary(pl.UTF-8):   Aplikacja xkbprint
 Name:		xorg-app-xkbprint
 Version:	1.0.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xkbprint application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xkbprint.
 
 %prep
