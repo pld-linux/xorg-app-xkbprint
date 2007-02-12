@@ -1,5 +1,5 @@
 Summary:	xkbprint application
-Summary(pl.UTF-8):   Aplikacja xkbprint
+Summary(pl.UTF-8):	Aplikacja xkbprint
 Name:		xorg-app-xkbprint
 Version:	1.0.1
 Release:	1
