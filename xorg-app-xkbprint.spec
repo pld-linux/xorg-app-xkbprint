@@ -1,15 +1,16 @@
 Summary:	xkbprint application to print XKB keyboard description
 Summary(pl.UTF-8):	Aplikacja xkbprint do drukowania opisów klawiatur XKB
 Name:		xorg-app-xkbprint
-Version:	1.0.6
+Version:	1.0.7
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	https://xorg.freedesktop.org/releases/individual/app/xkbprint-%{version}.tar.xz
-# Source0-md5:	c72a6ad6f03aa22e7afb0216cf2f79e0
+# Source0-md5:	feb86661e393f030d85f0d2243afa3a2
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
+BuildRequires:	gcc >= 5:3.2
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	tar >= 1:1.22
 # ensure <X11/extensions/XKBgeom.h> exists, so require libX11 after move from kbproto
